@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.search-form {
+    margin-top: 20px;
+}
+
+.search-form input, .search-form button {
+    padding: 10px;
+    margin: 5px;
+}
+
+.recommended, .reviews, .advantages {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.recommended h2, .reviews h2, .advantages h2 {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 10px;
+    width: calc(33% - 20px);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.advantages-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.advantage {
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 10px;
+    width: calc(25% - 20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
