@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список Квартир</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .apartment-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 0;
+            list-style: none;
+        }
+        .apartment {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .apartment img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .apartment h2 {
+            margin: 15px 0 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .apartment p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Список Квартир на Бронирование</h1>
+    <ul class="apartment-list">
+        <li class="apartment">
+            <img src="apartment1.jpg" alt="Квартира 1">
+            <h2>Квартира 1</h2>
+            <p>Количество комнат: 2</p>
+            <p>Цена за ночь: 5000 руб.</p>
+        </li>
+        <li class="apartment">
+            <img src="apartment2.jpg" alt="Квартира 2">
+            <h2>Квартира 2</h2>
+            <p>Количество комнат: 3</p>
+            <p>Цена за ночь: 7000 руб.</p>
+        </li>
+        <li class="apartment">
+            <img src="apartment3.jpg" alt="Квартира 3">
+            <h2>Квартира 3</h2>
+            <p>Количество комнат: 1</p>
+            <p>Цена за ночь: 4000 руб.</p>
+        </li>
+    </ul>
+</body>
+</html>
